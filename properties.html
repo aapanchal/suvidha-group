@@ -12,9 +12,13 @@
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
+
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top">
@@ -27,8 +31,15 @@
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ">
 
+                    <!-- <div class="fixed-header-logo">
+                            <div class="textwidget custom-html-widget">
+                                <a href="">
+                                    <img src="./assets/img/website-logo-ip-a.png" alt="Website Logo">
+                                </a>
+                            </div>
+                        </div> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/properties.html">PROPERTIES</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -36,75 +47,46 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/Suvidha-Group.html">Team</a></li>
                 </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light">
+                            <i class="fab fa-facebook-f light-green-text-2"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light">
+                            <i class="fab fa-twitter light-green-text-2"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light">
+                            <i class="fab fa-instagram light-green-text-2"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container d-flex h-100 align-items-center">
-            <div class="mx-auto text-center">
-                <!-- <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1> -->
 
-                <div>
-                    <div class="textwidget custom-html-widget">
-                        <a href="https://ogroup.com/">
-                            <img src="/assets/website-logo-a.png" alt="The Oppenheim Group Real Estate - Logo" class="slideshow-contact-logo">
-                        </a>
-                        <!-- <a href="https://ogroup.com/our-team/oppenheim-group/"
-                            class="slideshow-learn-more site-button">Learn More +</a></div> -->
-                    </div>
 
-                </div>
-            </div>
-    </header>
-    <!-- About-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="">
+            <!-- Masthead Heading-->
 
-    <!-- Projects-->
-    <section class="projects-section bg-light" id="projects">
-        <div class="container">
-            <!-- Featured Project Row-->
-            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="" /></div>
-                <div class="col-xl-4 col-lg-5">
-                    <div class="featured-text text-center text-lg-left">
-                        <h4>Shoreline</h4>
-                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!
-                        </p>
-                    </div>
-                </div>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+
             </div>
-            <!-- Project One Row-->
-            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Misty</h4>
-                                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                <hr class="d-none d-lg-block mb-0 ml-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Project Two Row-->
-            <div class="row justify-content-center no-gutters">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Mountains</h4>
-                                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                <hr class="d-none d-lg-block mb-0 mr-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Masthead Subheading-->
+
         </div>
-    </section>
+    </header>
+
+
+
     <!-- Signup-->
     <section class="signup-section" id="signup">
         <div class="container">
@@ -173,6 +155,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
 </body>
 
 </html>
